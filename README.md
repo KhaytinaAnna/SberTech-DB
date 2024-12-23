@@ -10,7 +10,7 @@ CREATE DATABASE bank;
 create table accounts
 (
 	id SERIAL
-		primary key,
+	primary key,
 	login varchar(255) not null,
 	balance bigint default 0 not null,
 	surname varchar(255) not null,
